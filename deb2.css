@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Resume Layout */
+.resume {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: yellow;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+header .title {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+header .contact {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.experience-item, .education-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3, .education-item h3 {
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.date {
+  font-style: italic;
+  color: #777;
+}
+
+.education-item .school {
+  font-weight: bold;
+}
